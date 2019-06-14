@@ -1,0 +1,19 @@
+#--------------------------------------------------------------------
+#--------------------------------------------------------------------
+#-- Description:
+#-- File List for Submodule SPI
+#--
+#--------------------------------------------------------------------
+
+@library spi
+github/spi.vhd
+github/spi_axi_slv.vhd
+github/spi_ctrl.vhd
+github/spi_ctrl_clock.vhd
+github/spi_ctrl_int.vhd
+github/spi_hub.vhd
+github/spi_wrapper.vhd
+
+ifdef(`FLTVAR_SYN',
+github/spi_ooc.xdc,
+)
